@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  border: 1px solid red;
+}
+
+.result-box {
+  width: 25%;
+  height: 100%;
+  background: blue;
+  border-radius: 25px;
+}
+
+.summary-box {
+  width: 25%;
+  height: 100%;
+  background: red;
+  border-radius: 25px;
+}
